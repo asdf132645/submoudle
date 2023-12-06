@@ -1,0 +1,138 @@
+/* .table-body-wrap.not-page {
+  height: 680px;
+  overflow: auto;
+} */
+
+.not-page th {
+  position: sticky;
+  top: 0px;
+}
+
+/* 테이블 */
+table.fixed {
+  table-layout: fixed;
+}
+table.tbl-list {
+  border: 1px solid #dee2e5;
+}
+table.tbl-list th {
+  border: 1px solid #dee2e5;
+  border-bottom: 0;
+  height: 4rem;
+  padding: 0 1rem;
+  background: #eef0f3;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #495057;
+  text-align: center;
+}
+table.tbl-list th a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #495057;
+}
+table.tbl-list td {
+  /*background: #fff;*/
+  border: 1px solid #dee2e5;
+  height: 4rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+  text-align: center;
+}
+table.tbl-list tr:last-child th,
+table.tbl-list tr:last-child td {
+  border-bottom: 0;
+}
+
+table.tbl-list.noline th {
+  border: 0;
+  border-bottom: 1px solid #dee2e5;
+}
+table.tbl-list.noline td {
+  border: 0;
+  border-bottom: 1px solid #dee2e5;
+}
+
+table.tbl-list .answer-end {
+  color: #388cff;
+}
+table.tbl-list .answer-ing {
+  color: #858e96;
+}
+
+.tc-red {
+  color: #ff483e;
+}
+.tc-yellow {
+  color: #f69504;
+}
+.tc-blue {
+  color: #388cff;
+}
+
+table.tbl-frm {
+  border: 1px solid #dee2e5;
+}
+table.tbl-frm th {
+  border: 1px solid #dee2e5;
+  border-bottom: 0;
+  height: 4rem;
+  padding: 1rem 1.5rem;
+  background: #eef0f3;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #495057;
+  text-align: left;
+}
+table.tbl-frm th a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #495057;
+}
+table.tbl-frm td {
+  background: #fff;
+  border: 1px solid #dee2e5;
+  height: 4rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #495057;
+  text-align: left;
+}
+table.tbl-frm tr:last-child th,
+table.tbl-frm tr:last-child td {
+  border-bottom: 0;
+}
+table.tbl-frm .select-c {
+  height: 3.6rem;
+}
+
+table.tbl-view {
+  border: 1px solid #dee2e5;
+  background: #fff;
+}
+table.tbl-view td {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #dee2e5;
+}
+table.tbl-view td.memo {
+  height: 25rem;
+  padding: 2rem 3rem;
+  vertical-align: top;
+}
+table.tbl-view td.comment {
+  background: #ebf3ff;
+}
+table.tbl-view .info {
+  font-size: 1.2rem;
+  color: #858e96;
+}
+table.tbl-view .info span {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1rem;
+  height: 1rem;
+  border-right: 1px solid #ced4da;
+}

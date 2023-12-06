@@ -1,0 +1,260 @@
+/* 달력 공통 필드 */
+.dateinputWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 3.2rem;
+}
+
+.dateinputWrap i {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  background: url('../images/app/ico-calendar-big.svg') 50% 50% no-repeat;
+}
+
+.dateinputWrap input {
+  background: none;
+  padding-left: 3rem;
+  flex: 1;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #343A40;
+  width: 100%;
+  height: 4.5rem;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.dateinputWrap span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #ADB5BD;
+  margin: 0 0.5rem;
+}
+
+.dateinputWrap .datepicker {
+  height: 3.2rem;
+}
+
+/* 공통 달력 */
+.modal-datepicker {
+  z-index: 9999999;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 23rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+
+.modal-datepicker .header {
+  height: 5rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-datepicker .header .month {
+  width: 17rem;
+  display: flex;
+}
+
+.modal-datepicker .header .month .select-c {
+  border: 0;
+}
+
+.modal-datepicker .header.year {
+  height: auto;
+  border-bottom: 1px solid #DEE2E5;
+  display: block
+}
+
+.modal-datepicker .header.year .month {
+  width: 100%;
+}
+
+.modal-datepicker .header.year .month .select-c {
+  border: 1px solid #DEE2E5;
+}
+
+.modal-datepicker .header.year p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #343A40;
+  margin: 0 0 1rem;
+}
+
+.modal-datepicker button.btn-date-left {
+  width: 3rem;
+  height: 3rem;
+  background: url('../images/left_arrow.png') 50% 50% no-repeat;
+}
+
+.modal-datepicker button.btn-date-right {
+  width: 3rem;
+  height: 3rem;
+  background: url('../images/right_arrow.png') 50% 50% no-repeat;
+}
+
+.modal-datepicker button.btn-date-left:hover {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background: #EBF3FF url('../images/left_arrow_hover.png') 50% 50% no-repeat;
+}
+
+.modal-datepicker button.btn-date-right:hover {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background: #EBF3FF url('../images/right_arrow_hover.png') 50% 50% no-repeat;
+}
+
+.modal-datepicker .body {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.modal-datepicker .body table {
+  border: 0 !important;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 6px;
+}
+
+.modal-datepicker .body table th {
+  background: #fff !important;
+  border: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  font-size: 1.2rem;
+  font-weight: 400 !important;;
+  color: #495057;
+}
+
+.modal-datepicker .body table td button {
+  text-align: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+}
+
+.modal-datepicker .body table td {
+  text-align: center;
+  border: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+}
+
+.modal-datepicker .body table td.disabled button {
+  opacity: 0.3;
+}
+
+.modal-datepicker .body table td.red button {
+  color: #FF483E;
+}
+
+.modal-datepicker .body table td.bg {
+  background: #EBF3FF;
+}
+
+.modal-datepicker .body table td.bg-active button {
+  opacity: 1 !important;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #388CFF;
+  color: #fff;
+}
+
+.modal-datepicker .body ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem 0 0;
+}
+
+.modal-datepicker .body ul li {
+  width: 25%;
+  margin: 0 0 1rem;
+}
+
+.modal-datepicker .body ul li button {
+  width: 4.5rem;
+  height: 3.5rem;
+  border: 1px solid #DEE2E5;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ADB5BD;
+}
+
+.modal-datepicker .body ul li button.bg-active {
+  background: #EBF3FF;
+  color: #388CFF;
+  border: 1px solid #388CFF;
+}
+
+.modal-datepicker .footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-top: 1px solid #eaeaea;
+  padding: 0 1.5rem;
+}
+
+.modal-datepicker .footer .frm-input {
+  height: 3.2rem;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #343A40;
+  border: 1px solid #DEE2E5;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+.modal-datepicker .footer .frm-input:focus {
+  border: 1px solid #343A40;
+}
+
+.modal-datepicker .footer .frm-input.datepicker {
+  padding-left: 4rem;
+  background: url('../images/ico-calendar.png') 1rem 50% no-repeat;
+}
+
+.modal-datepicker .footer .frm-input.noline {
+  border: 0;
+  padding: 0;
+}
+
+.modal-datepicker .footer button.btn-date-apply {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #ADB5BD;
+}
+
+.modal-datepicker .footer button.btn-date-apply.bg-active {
+  background: #388CFF;
+}
+
+.modal-datepicker .footer input {
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+}

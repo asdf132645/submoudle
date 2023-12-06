@@ -1,0 +1,7 @@
+
+.d-flex{ display: flex}
+main.container { width:100%; flex:1; }
+main.container.contentsWrap { margin:6rem 0 0; }
+main.container.contentsWrap .bodyWrap { width:100%; padding-left:4.5rem; display:flex; flex-direction:column; flex:1; transition:all 0.1s ease-out;  }
+main.container.contentsWrap .bodyWrap.active { padding-left:23.5rem; }
+main.container.contentsWrap .bodyWrap .contents { width:100%; flex:1; padding:7rem 3rem 4rem; background:#F5F5F5; }

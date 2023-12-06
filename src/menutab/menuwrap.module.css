@@ -1,0 +1,167 @@
+.menuWrap {
+  z-index: 2;
+  transition: all 0.1s ease-out;
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  padding-left: 23.5rem;
+  background: #fff;
+  border-bottom: 1px solid #dee2e5;
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+.menuWrap.active {
+  padding-left: 4.5rem;
+}
+.menuWrap .menuTab {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.menuWrap .menuTab li {
+  height: 100%;
+  min-width: 14rem;
+  background: #ffffff;
+  border-right: 1px solid #dee2e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 1.2rem;
+  gap: 1rem;
+}
+.menuWrap .menuTab li button.menuTab-btn {
+  font-size: 1.4rem;
+  color: #858e96;
+  flex: 1;
+  height: 100%;
+  text-align: left;
+}
+
+.menuWrap .menuTab li button.tabDel {
+  width: 2rem;
+  height: 2rem;
+  background: url('../../styles/images/ico-h-close.png') 50% 50% no-repeat;
+}
+.menuWrap .menuTab li button.tabDel-on {
+  width: 2rem;
+  height: 2rem;
+  background: url('../../styles/images/ico-h-close-on.png') 50% 50% no-repeat;
+}
+
+.menuWrap .menuTab li.active {
+  background: #388cff;
+}
+.menuWrap .menuTab li.active button.menuTab-btn {
+  font-size: 1.4rem;
+  color: #fff;
+  flex: 1;
+  height: 100%;
+}
+
+.menuWrap .menuTab li:active {
+  background: #388cff;
+}
+.menuWrap .menuTab li:active button.menuTab-btn {
+  font-size: 1.4rem;
+  color: #fff;
+  flex: 1;
+  height: 100%;
+}
+.menuWrap .menuTab li:active button.tabDel {
+  background: url('../../styles/images/ico-h-close-on.png') 50% 50% no-repeat;
+}
+
+.menuWrap .menuIcon {
+  margin-right: 2rem;
+}
+.menuWrap .menuIcon button {
+  margin-right: 0.5rem;
+}
+.menuWrap .menuIcon .btn-newtab {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url('../../styles/images/ico-h-newtab.png') 50% 50% no-repeat;
+}
+.menuWrap .menuIcon .btn-download {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url('../../styles/images/ico-h-download.png') 50% 50% no-repeat;
+}
+.menuWrap .menuIcon .btn-print {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url('../../styles/images/ico-h-print.png') 50% 50% no-repeat;
+}
+.menuWrap .menuIcon .btn-favorites {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #ebf3ff url('../../styles/images/ico-h-star.png') 50% 50%
+    no-repeat;
+  border-radius: 50%;
+}
+
+.menuWrap .menuIcon .btn-favorites.active {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #ebf3ff url('../../styles/images/ico-star-on.png') 50% 50%
+    no-repeat;
+  border-radius: 50%;
+}
+
+/** tab 관리 우측 상단 버튼*/
+
+.menuWrap .menuIcon .btn-menuctl {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-image: url('../images/menutab_normal.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  border-color: #dee2e5;
+  border-style: solid;
+  border-width: 0 1px;
+}
+.menuWrap .menuIcon .btn-menuctl.active {
+  background-image: url('../images/menutab-active.png');
+}
+
+.menuWrap .menuIcon ul {
+  position: absolute;
+  right: 11.5rem;
+  top: calc(4.5rem - 1px);
+  border: 1px solid #dee2e5;
+}
+
+.menuWrap .menuIcon ul.excel {
+  right: 14.5rem;
+}
+
+.menuWrap .menuIcon li {
+  background: #ffffff;
+  width: 14rem;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 7px 12px;
+  color: #858e96;
+  font-weight: 400;
+}
+
+.menuWrap .menuIcon li:nth-child(3) {
+  border-bottom: 1px solid #dee2e5;
+}
+
+.menuWrap .menuIcon li:hover {
+  color: #388cff;
+  cursor: pointer;
+}
+
+.menuWrap .menuIcon li.active {
+  color: #388cff;
+}

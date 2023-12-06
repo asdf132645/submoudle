@@ -1,0 +1,295 @@
+/* 정적인 선택상자 */
+.dropdown {
+  /* background: pink; */
+  font-weight: 400;
+}
+.dropdown .picker {
+  background: #ffffff;
+  border: 1px solid #dee2e5;
+  border-radius: 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: #adb5bd;
+  position: relative;
+}
+
+.dropdown .picker::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/ico-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  filter: brightness(3);
+}
+
+.dropdown .picker.open {
+  border-radius: 4px 4px 0px 0px;
+  border-color: #343a40;
+}
+.dropdown .picker.selected {
+  color: #343a40;
+}
+
+.dropdown .picker:focus,
+.dropdown .picker:active {
+  border-color: #343a40;
+}
+
+.dropdown .picker span {
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dropdown .picker.selected::after {
+  filter: brightness(0);
+}
+
+/** 선택상자 리스트 */
+.dropdown ul {
+  height: 100px;
+  overflow-y: auto;
+  border: 1px solid #dee2e5;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dropdown ul li {
+  height: 32px;
+  background: #fff;
+  border-top: 1px solid #dee2e5;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.dropdown ul li.selected,
+.dropdown ul li:hover {
+  background: #f8f9fa;
+}
+
+.dropdown ul::-webkit-scrollbar {
+  width: 8px; /* 스크롤바의 너비 */
+}
+.dropdown ul::-webkit-scrollbar-thumb {
+  background-color: #858e96;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+.dropdown ul::-webkit-scrollbar-track {
+  background-color: #e8ecef;
+  border-radius: 10px;
+  border-radius: 0px 0px 4px 0px;
+}
+
+/* 단일선택 셀렉트박스 디자인 */
+.select-hidden {
+  display: none;
+  visibility: hidden;
+}
+.select-c::-ms-expand {
+  display: none;
+}
+.select-c {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  border: 1px solid #dee2e5;
+  border-radius: 0.3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 1.5rem;
+  letter-spacing: -0.5px;
+  background: #fff;
+}
+
+.select-c.medium {
+  height: 32px;
+}
+.select-c.small {
+  height: 24px;
+}
+
+.select-c.border-radius {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.select-styled:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/ico-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+.select-styled:active:after,
+.select-styled.active:after {
+  background-image: url('../images/ico-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+}
+
+.activeSelect {
+  background: #ebf3ff;
+}
+.select-options {
+  display: none;
+  position: absolute;
+  top: 38px;
+  left: -1px;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  width: calc(100% + 2px);
+  list-style: none;
+  background: #fff;
+  border-radius: 0;
+  overflow-y: hidden;
+  border: 1px solid #dee2e5;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  scrollbar-color: #d9d9d9;
+  scrollbar-width: thin;
+}
+.select-c.medium .select-options {
+  top: 30px;
+}
+.select-c.small .select-options {
+  top: 22px;
+}
+
+.select-options::-webkit-scrollbar {
+  width: 0.8rem;
+  border-radius: 0.8rem;
+}
+.select-options::-webkit-scrollbar-track {
+  background: #fff;
+}
+.select-options::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 100px;
+}
+.select-options::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  -webkit-text-size-adjust: none;
+}
+
+.select-options li {
+  margin: 0 !important;
+  padding: 0 1.5rem;
+  line-height: 3rem !important;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  font-size: 18px;
+  color: #495057;
+  border-bottom: 1px solid #dee2e5;
+}
+.select-options li:last-child {
+  border-bottom: 0;
+}
+.select-options li:hover {
+  background: #ebf3ff;
+}
+.select-options li[rel='hide'] {
+  display: none;
+}
+
+/* 다중선택 셀렉트박스 디자인 */
+.select-options2 {
+  display: none;
+  position: absolute;
+  top: 2.9rem;
+  left: -1px;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  width: calc(100% + 2px);
+  list-style: none;
+  background: #fff;
+  border-radius: 0;
+  overflow-y: hidden;
+  border: 1px solid #dee2e5;
+}
+.select-options2 {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  scrollbar-color: #d9d9d9;
+  scrollbar-width: thin;
+}
+.select-options2::-webkit-scrollbar {
+  width: 0.8rem;
+  border-radius: 0.8rem;
+}
+.select-options2::-webkit-scrollbar-track {
+  background: #fff;
+}
+.select-options2::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 100px;
+}
+.select-options2::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  -webkit-text-size-adjust: none;
+}
+
+.select-options2 li {
+  margin: 0 !important;
+  padding: 0 1.5rem 0 4rem;
+  line-height: 3rem !important;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  font-size: 1.2rem;
+  color: #495057;
+  border-bottom: 1px solid #dee2e5;
+  position: relative;
+}
+
+.select-options2 li:before {
+  content: '';
+  position: absolute;
+  top: 0.7rem;
+  background: #fff;
+  left: 1.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid #dee2e5;
+  border-radius: 2px;
+}
+.select-options2 li.active:before {
+  background: #00b4cd url('../images/ico-checkbox.png') 50% 50% no-repeat;
+}
+
+.select-options2 li:last-child {
+  border-bottom: 0;
+}
+.select-options2 li:hover {
+  background: #ebf3ff;
+}
+.select-options2 li[rel='hide'] {
+  display: none;
+}

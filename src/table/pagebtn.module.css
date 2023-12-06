@@ -1,0 +1,60 @@
+/* 페이징 */
+.pagingWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagingWrap ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagingWrap ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+}
+.pagingWrap ul li:first-child {
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+.pagingWrap ul li:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+.pagingWrap button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+.pagingWrap button.btn-prev2 {
+  background: url('../images/ico-arrow-left-double.png') 50% 50% no-repeat;
+}
+.pagingWrap button.btn-prev1 {
+  background: url('../images/ico-arrow-left.png') 50% 50% no-repeat;
+}
+.pagingWrap button.btn-next1 {
+  background: url('../images/ico-arrow-right.png') 50% 50% no-repeat;
+}
+.pagingWrap button.btn-next2 {
+  background: url('../images/ico-arrow-right-double.png') 50% 50% no-repeat;
+}
+
+.pagingWrap .page-btn {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  color: #adb5bd;
+  border-radius: 100%;
+}
+.pagingWrap .page-btn:hover {
+  background: #388cff;
+  color: #fff;
+}
+.pagingWrap .page-btn.active {
+  background: #388cff;
+  color: #fff;
+}

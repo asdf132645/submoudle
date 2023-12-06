@@ -1,0 +1,134 @@
+.addrWrap {
+  padding: 2.5rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e5;
+  border-radius: 0.5rem;
+}
+
+/* 주소검색 */
+ul.addrList {
+  border: 1px solid #dee2e5;
+  border-radius: 0.5rem;
+  flex: 1;
+  overflow-y: auto;
+  border-radius: 0.5rem;
+}
+ul.addrList li {
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+  height: 7rem;
+  border-bottom: 1px solid #dee2e5;
+}
+ul.addrList li:last-child {
+  border: 0;
+}
+ul.addrList li dl {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem;
+}
+ul.addrList li dl dt {
+  width: 5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #858e96;
+}
+ul.addrList li dl dd {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+}
+
+ul.addrList li:hover {
+  background: #ebf3ff;
+}
+ul.addrList li:hover dl {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem;
+}
+ul.addrList li:hover dl dt {
+  width: 5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #388cff;
+}
+ul.addrList li:hover dl dd {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+}
+
+ul.addrList li.active {
+  background: #ebf3ff;
+}
+ul.addrList li.active dl {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem;
+}
+ul.addrList li.active dl dt {
+  width: 5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #388cff;
+}
+ul.addrList li.active dl dd {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+}
+
+/* 임시 */
+
+/* 테이블 */
+table.tbl-list {
+  border: 1px solid #dee2e5;
+}
+table.tbl-list th {
+  border: 1px solid #dee2e5;
+  border-bottom: 0;
+  height: 4rem;
+  padding: 1rem;
+  background: #eef0f3;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #495057;
+  text-align: left;
+}
+table.tbl-list th a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #495057;
+}
+table.tbl-list th a:hover {
+  text-decoration: underline;
+}
+table.tbl-list td {
+  /*background: #fff;*/
+  border: 1px solid #dee2e5;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #495057;
+  text-align: left;
+}
+table.tbl-list tr:last-child th,
+table.tbl-list tr:last-child td {
+  border-bottom: 0;
+}
+
+table.tbl-list tfoot th {
+  background: #495057 !important;
+  color: #fff !important;
+}
+
+table.tbl-list.noline th {
+  border: 0;
+  border-bottom: 1px solid #dee2e5;
+}
+table.tbl-list.noline td {
+  border: 0;
+  border-bottom: 1px solid #dee2e5;
+}

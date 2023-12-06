@@ -1,0 +1,80 @@
+.frm-textarea {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #343a40;
+  border: 1px solid #dee2e5;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.frm-textarea:focus {
+  border: 1px solid #343a40;
+}
+.frm-input {
+  height: 3.6rem;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #343a40;
+  border: 1px solid #dee2e5;
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.frm-input:focus {
+  border: 1px solid #343a40;
+}
+.frm-input.noline {
+  border: 0;
+  padding: 0;
+}
+.frm-input.frm-ok {
+  border: 1px solid #01b453;
+}
+.frm-input.frm-fail {
+  border: 1px solid #ff483e;
+}
+.frm-keyword {
+  height: 3.6rem;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #343a40;
+  border: 0;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.frm-keyword:focus {
+  border: 0;
+}
+
+.msg-normal {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #858e96;
+  font-weight: 400;
+}
+.msg-ok {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #01b453;
+  font-weight: 400;
+}
+.msg-fail {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #ff483e;
+  font-weight: 400;
+}
+
+.label {
+  height: 2rem;
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #495057;
+}

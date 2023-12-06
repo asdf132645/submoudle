@@ -1,0 +1,44 @@
+.notpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+}
+
+.hospital-mark {
+  background: #388cff;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-mark {
+  background: #adb5bd;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  margin-top: 3rem;
+  text-align: center;
+  color: #858e96;
+}
+.description p {
+  font-size: 24px;
+  color: #212629;
+}
+
+.btn-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

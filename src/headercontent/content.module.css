@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  padding: 0 3rem 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo span {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.header .logo span:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header .companySelect {
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+}
+.header .companySelect .wrap {
+  position: relative;
+  margin-left: 1.5rem;
+  width: 43rem;
+  background: #fff;
+  border-radius: 16rem;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.header .companySelect .wrap.active {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.header .companySelect .wrap .select-c {
+  border: 0 !important;
+}
+.header .companySelect .btn-s1 {
+  margin-left: 1rem;
+}
+.header .companySelect .btn-lnb-view-toggle {
+  transition: all 0.1s ease-out;
+}
+.header .companySelect .btn-lnb-view-toggle.active {
+  transform: rotate(180deg);
+}
+
+.header .companySelect .keyword {
+  display: none;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  width: calc(100%);
+  list-style: none;
+  background: #fff;
+  border-radius: 0;
+  overflow-y: hidden;
+  border: 1px solid #dee2e5;
+}
+
+.header .companySelect .keyword li {
+  cursor: pointer;
+  margin: 0 !important;
+  padding: 0 1.5rem;
+  line-height: 3rem !important;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  font-size: 1.2rem;
+  border-top: 0;
+  color: #495057;
+  border-bottom: 1px solid #dee2e5;
+}
+.header .companySelect .keyword li:last-child {
+  border-bottom: 0;
+}
+.header .companySelect .keyword li:hover {
+  background: #ebf3ff;
+}
+
+.header .info {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .info a {
+  font-size: 1.3rem;
+  color: #ced4da;
+  font-weight: 500;
+}
+.header .info span.dot {
+  font-size: 1.1rem;
+  color: #ced4da;
+  margin: 0 1rem;
+}
+.header .info span {
+  font-size: 1.3rem;
+  color: #ced4da;
+  font-weight: 500;
+}
+.header .info .profile {
+  margin-right: 1rem;
+}
+.header .info .btn-refresh {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 2rem;
+}

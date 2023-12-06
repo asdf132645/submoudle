@@ -1,0 +1,290 @@
+[33mcommit db264f3af4b3debf8abe94b1efc8c8f275d84d20[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jiyeong <68093257+asdf132645@users.noreply.github.com>
+Date:   Wed Dec 6 11:16:52 2023 +0900
+
+    Update .gitattributes
+
+[33mcommit cfa127d9b9f1756d219c9a7e6bcb9276cd64ad60[m
+Author: jiyeong <68093257+asdf132645@users.noreply.github.com>
+Date:   Wed Dec 6 10:59:10 2023 +0900
+
+    Create .gitattributes
+
+[33mcommit 9983626e1b51d6c97f62e3f1f03ae6a5f9a8326a[m
+Author: jiyeong <68093257+asdf132645@users.noreply.github.com>
+Date:   Wed Dec 6 10:53:08 2023 +0900
+
+    Delete README.md
+
+[33mcommit 67e8b5059981df08fb8b36e3f6c1370304994ca9[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Tue Dec 5 15:24:16 2023 +0900
+
+    수정
+
+[33mcommit c22cddebbc37e3385f626eacee67ba359279ad44[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Tue Dec 5 13:00:00 2023 +0900
+
+    공통 달력 수정
+
+[33mcommit c15560b52fad4910207faaed16aef838a00bcab2[m
+Author: isroiljon <isroiljon@sugarbricks.co.kr>
+Date:   Thu Nov 30 11:34:30 2023 +0900
+
+    DateBox update
+
+[33mcommit 66b73db9156d8f1387a44f1c17de8cb83966aaad[m
+Author: isroiljon <isroiljon@sugarbricks.co.kr>
+Date:   Thu Nov 30 11:26:37 2023 +0900
+
+    DateBox update
+
+[33mcommit 50f68eda4c4cae7913d809429d4fb6f7232280be[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Wed Nov 22 12:27:27 2023 +0900
+
+    수정
+
+[33mcommit 24986cd95efb3a488d5b821c6e47769713ede1be[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Nov 17 16:27:53 2023 +0900
+
+    .
+
+[33mcommit 5fe5f2288318207fe864e1f9bfdd41fa65c053a8[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Mon Nov 13 10:18:20 2023 +0900
+
+    .
+
+[33mcommit 8c94ee2adeb889e1a3d3efbe1c125c7fbb0e9377[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Nov 10 12:48:35 2023 +0900
+
+    .
+
+[33mcommit 3d1fc1f3aa06cc14ad4eb9e1decf1f9562182121[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Thu Nov 9 18:12:10 2023 +0900
+
+    .
+
+[33mcommit 92e2b4ea2b7603d32768842ea5339ecec88a5084[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Wed Nov 8 12:19:45 2023 +0900
+
+    쿼리박스 수정
+
+[33mcommit 6e428370a5d8824acfe00637d49886ffb99cf3ac[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Nov 3 18:30:46 2023 +0900
+
+    수ㅜㅜ정정
+
+[33mcommit cba8821a223770a5edb194a7f8d86bb52cb2b6db[m
+Merge: 926d1bb 60fece8
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Oct 27 14:28:11 2023 +0900
+
+    s
+
+[33mcommit 926d1bb8a502077165809b781a116cb46505ddd4[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Oct 27 14:24:42 2023 +0900
+
+    체크박스 수정
+
+[33mcommit 60fece873379bd081f315abc3e81bf5077dea147[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Thu Oct 26 12:07:31 2023 +0900
+
+    .
+
+[33mcommit fca22e2913a807996ddab5dd9aa6720d227c51d1[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Thu Oct 26 12:06:15 2023 +0900
+
+    테이블 css 수정
+
+[33mcommit faa7d3ae667d7626575f06d7524e6ce746f5dd80[m
+Merge: 64c4af3 fd938d4
+Author: YeolWoo Sung <woyesu@sugarbricks.co.kr>
+Date:   Thu Oct 19 00:58:41 2023 +0900
+
+    Merge branch 'dev' of git.sugarbricks.co.kr:dr.village/frontend/console-component into dev
+
+[33mcommit 64c4af31ccb1b8e441dd6ec28c83559ae349a771[m
+Author: YeolWoo Sung <woyesu@sugarbricks.co.kr>
+Date:   Thu Oct 19 00:58:37 2023 +0900
+
+    add lowerMenuList
+
+[33mcommit fd938d46d83dab3f51858388c502cd67b5100c97[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Wed Oct 18 15:46:59 2023 +0900
+
+    css 추ㅠ가
+
+[33mcommit 5a9bce1020442dd8433ac2b1aecaf39b6ee35392[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Wed Oct 18 15:22:00 2023 +0900
+
+    .
+
+[33mcommit 8a5df79abe941654fa514c023900dcdb04a1c5d8[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Tue Oct 17 16:31:14 2023 +0900
+
+    .
+
+[33mcommit 178736028aba4ec6e8f37405d205866b0e3583e0[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Tue Oct 17 16:05:14 2023 +0900
+
+    .
+
+[33mcommit 2d46edf8283ae5aed6234dd3bfe0b4cf4f6af566[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Tue Oct 17 11:56:25 2023 +0900
+
+    .
+
+[33mcommit 4a29844ff9d4967f5fe6611f1d61bfa896d4802a[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Sun Oct 15 14:37:48 2023 +0900
+
+    .
+
+[33mcommit 6500eb91acddda8e8e01c9d6604b047fc93399a2[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Sun Oct 8 10:41:26 2023 +0900
+
+    .
+
+[33mcommit f81a901d6855b3d740316bc4cab0542baa05e753[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Sun Oct 8 10:38:29 2023 +0900
+
+    .
+
+[33mcommit 206bf623aaaa9f23e23274dcacc320f0277b7519[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Sat Oct 7 17:20:48 2023 +0900
+
+    서브모듈 빌드에러 수정
+
+[33mcommit 949029aaf1fd70045c55d555d99336f9bfe863c7[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Sat Oct 7 17:03:18 2023 +0900
+
+    알림 서브모듈 수정
+
+[33mcommit aff26277fbbd30787f3598e640ac5fbc5dab3242[m
+Merge: eebf07f 4e1dd87
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Fri Oct 6 16:39:21 2023 +0900
+
+    Merge branch 'dev' of https://git.sugarbricks.co.kr/dr.village/frontend/console-component into minguk
+
+[33mcommit eebf07f278e3161b214504767c1e33368226ca65[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Fri Oct 6 16:31:14 2023 +0900
+
+    알림이 있을 시 사이드 메뉴 빨간 점 나오기, 인증관리대상 관리사이트 validation수정
+
+[33mcommit beea496c680495f32306c85a5336f7dc23f6f04b[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Thu Oct 5 17:15:02 2023 +0900
+
+    메뉴 서브모듈 수정
+
+[33mcommit 8e306964220ca8c20373ccf64a62f4c1d1cd7bcf[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Thu Oct 5 16:21:36 2023 +0900
+
+    메뉴관련 서브모듈 수정
+
+[33mcommit 9009c1c4ea8fd8ae93321dba1eaca8ca93de64f1[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Thu Oct 5 14:40:10 2023 +0900
+
+    서브모듈 수정
+
+[33mcommit b1f8f6d9248c915f2ea3f98b66c39e37f5b057fa[m
+Author: kimtjmm <kimtjmm@naver.com>
+Date:   Wed Oct 4 17:31:58 2023 +0900
+
+    알림, 프린트아이콘 주석처리
+
+[33mcommit 4e1dd876cf3e720c713a7895c51f89f6d59baf49[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Sat Sep 30 16:34:58 2023 +0900
+
+    테이블 체크박스 감추는기능 없음 추가완료
+
+[33mcommit 19facbcdf5574ea85ccc09841aba1b84d16482b0[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Thu Aug 17 17:16:40 2023 +0900
+
+    .
+
+[33mcommit 40636d5f48cb3ad41bf820a1200abc3dd61a5af0[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Thu Aug 17 16:47:11 2023 +0900
+
+    수정
+
+[33mcommit 15f92d235e1361166bd401dde70d6d7cb0f3a925[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Aug 11 13:46:39 2023 +0900
+
+    이미지 추가
+
+[33mcommit a05231ce996382375ef9d6b424202a01a59a1c9d[m
+Author: Kang Jiyeong <coin@sugarbricks.co.kr>
+Date:   Fri Aug 11 13:39:03 2023 +0900
+
+    css 변경
+
+[33mcommit cdcc2dbf0a6b6a0d438afe09eeac8eb4e9232b8d[m
+Author: jupic <juphich@sugarbricks.co.kr>
+Date:   Thu Jun 8 16:02:07 2023 +0900
+
+    [U] 모듈 오류 수정
+
+[33mcommit d25ce071531efc29ba1e339637eb4c47a4837130[m
+Author: jupic <juphich@sugarbricks.co.kr>
+Date:   Thu Jun 8 13:37:43 2023 +0900
+
+    [U] 빈값 수정
+
+[33mcommit c921d268e174473c448ae3d2f4db68da44c2a74e[m
+Author: jupic <juphich@sugarbricks.co.kr>
+Date:   Thu May 25 16:27:35 2023 +0900
+
+    [U] 프로젝트 문서 업데이트
+
+[33mcommit 5f723435995a22eda766f6dc1f470c9626db73ac[m
+Author: kimmanjoong <enne123@sugarbricks.co.kr>
+Date:   Mon Apr 10 14:50:54 2023 +0900
+
+    trivial
+
+[33mcommit b02138b4ffdf5247b9bb4a2cc63a54f0e27f16db[m
+Author: kimmanjoong <enne123@sugarbricks.co.kr>
+Date:   Wed Apr 5 10:33:31 2023 +0900
+
+    submit prevent when press enter
+
+[33mcommit 841a55c3ff0d498d6133842962a0624b7f4754e4[m
+Author: kimmanjoong <enne123@sugarbricks.co.kr>
+Date:   Wed Apr 5 10:26:52 2023 +0900
+
+    fix: submit prevent when press enter
+
+[33mcommit 4d735acbb35f2842cd4198599904dcdd2f11f6ae[m
+Author: kimmanjoong <enne123@sugarbricks.co.kr>
+Date:   Tue Apr 4 18:25:44 2023 +0900
+
+    

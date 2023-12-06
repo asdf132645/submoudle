@@ -1,0 +1,639 @@
+/* 레이아웃 정렬 */
+.row {
+  display: flex;
+}
+.no-flex {
+  display: block !important;
+}
+.d-flex {
+  display: flex;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.m-auto {
+  margin: 0 auto !important;
+}
+
+.col-auto {
+  flex: 1;
+}
+.col-100 {
+  width: 100% !important;
+}
+.col-50 {
+  width: 50% !important;
+}
+
+.w-130 {
+  width: 13rem !important;
+}
+.w-160 {
+  width: 16rem !important;
+}
+
+/* 텍스트 정렬 */
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+/* 마진&여백 */
+.p-0 {
+  padding: 0 !important;
+}
+.pt-1 {
+  padding-top: 1rem !important;
+}
+.pt-2 {
+  padding-top: 2rem !important;
+}
+.pt-3 {
+  padding-top: 3rem !important;
+}
+.pt-4 {
+  padding-top: 4rem !important;
+}
+.pt-5 {
+  padding-top: 5rem !important;
+}
+.pt-6 {
+  padding-top: 6rem !important;
+}
+.pt-7 {
+  padding-top: 7rem !important;
+}
+.pt-8 {
+  padding-top: 8rem !important;
+}
+.pt-9 {
+  padding-top: 9rem !important;
+}
+.pt-10 {
+  padding-top: 10rem !important;
+}
+
+.pl-1 {
+  padding-left: 1rem !important;
+}
+.pl-2 {
+  padding-left: 2rem !important;
+}
+.pl-3 {
+  padding-left: 3rem !important;
+}
+.pl-4 {
+  padding-left: 4rem !important;
+}
+.pl-5 {
+  padding-left: 5rem !important;
+}
+.pl-6 {
+  padding-left: 6rem !important;
+}
+.pl-7 {
+  padding-left: 7rem !important;
+}
+.pl-8 {
+  padding-left: 8rem !important;
+}
+.pl-9 {
+  padding-left: 9rem !important;
+}
+.pl-10 {
+  padding-left: 10rem !important;
+}
+
+.pr-1 {
+  padding-right: 1rem !important;
+}
+.pr-2 {
+  padding-right: 2rem !important;
+}
+.pr-3 {
+  padding-right: 3rem !important;
+}
+.pr-4 {
+  padding-right: 4rem !important;
+}
+.pr-5 {
+  padding-right: 5rem !important;
+}
+.pr-6 {
+  padding-right: 6rem !important;
+}
+.pr-7 {
+  padding-right: 7rem !important;
+}
+.pr-8 {
+  padding-right: 8rem !important;
+}
+.pr-9 {
+  padding-right: 9rem !important;
+}
+.pr-10 {
+  padding-right: 10rem !important;
+}
+
+.pb-1 {
+  padding-bottom: 1rem !important;
+}
+.pb-2 {
+  padding-bottom: 2rem !important;
+}
+.pb-3 {
+  padding-bottom: 3rem !important;
+}
+.pb-4 {
+  padding-bottom: 4rem !important;
+}
+.pb-5 {
+  padding-bottom: 5rem !important;
+}
+.pb-6 {
+  padding-bottom: 6rem !important;
+}
+.pb-7 {
+  padding-bottom: 7rem !important;
+}
+.pb-8 {
+  padding-bottom: 8rem !important;
+}
+.pb-9 {
+  padding-bottom: 9rem !important;
+}
+.pb-10 {
+  padding-bottom: 10rem !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+.mt-0 {
+  margin-top: 0rem !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.mt-015 {
+  margin-top: 1.5rem !important;
+}
+.mt-2 {
+  margin-top: 2rem !important;
+}
+.mt-025 {
+  margin-top: 2.5rem !important;
+}
+.mt-3 {
+  margin-top: 3rem !important;
+}
+.mt-4 {
+  margin-top: 4rem !important;
+}
+.mt-5 {
+  margin-top: 5rem !important;
+}
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mt-7 {
+  margin-top: 7rem !important;
+}
+.mt-8 {
+  margin-top: 8rem !important;
+}
+.mt-9 {
+  margin-top: 9rem !important;
+}
+.mt-10 {
+  margin-top: 10rem !important;
+}
+.mt-11 {
+  margin-top: 11rem !important;
+}
+
+.ml-1 {
+  margin-left: 1rem !important;
+}
+.ml-2 {
+  margin-left: 2rem !important;
+}
+.ml-3 {
+  margin-left: 3rem !important;
+}
+.ml-4 {
+  margin-left: 4rem !important;
+}
+.ml-5 {
+  margin-left: 5rem !important;
+}
+.ml-6 {
+  margin-left: 6rem !important;
+}
+.ml-7 {
+  margin-left: 7rem !important;
+}
+.ml-8 {
+  margin-left: 8rem !important;
+}
+.ml-9 {
+  margin-left: 9rem !important;
+}
+.ml-10 {
+  margin-left: 10rem !important;
+}
+
+.mr-05 {
+  margin-right: 0.5rem !important;
+}
+.mr-1 {
+  margin-right: 1rem !important;
+}
+.mr-015 {
+  margin-right: 1.5rem !important;
+}
+.mr-2 {
+  margin-right: 2rem !important;
+}
+.mr-3 {
+  margin-right: 3rem !important;
+}
+.mr-4 {
+  margin-right: 4rem !important;
+}
+.mr-5 {
+  margin-right: 5rem !important;
+}
+.mr-6 {
+  margin-right: 6rem !important;
+}
+.mr-7 {
+  margin-right: 7rem !important;
+}
+.mr-8 {
+  margin-right: 8rem !important;
+}
+.mr-9 {
+  margin-right: 9rem !important;
+}
+.mr-10 {
+  margin-right: 10rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0rem !important;
+}
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+.mb-4 {
+  margin-bottom: 4rem !important;
+}
+.mb-5 {
+  margin-bottom: 5rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.mb-7 {
+  margin-bottom: 7rem !important;
+}
+.mb-8 {
+  margin-bottom: 8rem !important;
+}
+.mb-9 {
+  margin-bottom: 9rem !important;
+}
+.mb-10 {
+  margin-bottom: 10rem !important;
+}
+
+.bg-white {
+  background: #fff !important;
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+}
+.bg-blue {
+  background: #ebf3ff !important;
+}
+.bg-yellow {
+  background: #fdeacd !important;
+}
+.bg-green {
+  background: #e6f8ee !important;
+}
+.bg-red {
+  background: #fff5e6 !important;
+}
+
+.bg-blue-50 {
+  background: rgba(235, 243, 255, 0.5) !important;
+}
+.bg-yellow-50 {
+  background: rgba(246, 149, 4, 0.1) !important;
+}
+.bg-green-50 {
+  background: rgba(1, 180, 83, 0.1) !important;
+}
+
+.font-11 {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+}
+.font-12 {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+}
+.font-13 {
+  font-size: 1.3rem !important;
+  font-weight: 500 !important;
+}
+.font-14 {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+}
+.font-15 {
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
+.tc-red {
+  color: #ff483e;
+}
+.tc-yellow {
+  color: #f69504;
+}
+.tc-blue {
+  color: #388cff;
+}
+
+.tc-gray {
+  color: #858e96 !important;
+}
+.tc-green {
+  color: #01b453 !important;
+}
+
+.border-gray {
+  border: 1px solid #dee2e5 !important;
+}
+
+.border-top-0 {
+  border-top: 0 !important;
+}
+.border-right-0 {
+  border-right: 0 !important;
+}
+.border-bottom-0 {
+  border-bottom: 0 !important;
+}
+.border-left-0 {
+  border-left: 0 !important;
+}
+.border-0 {
+  border: 0 !important;
+}
+
+.border-top {
+  border-top: 1px solid #283d82 !important;
+}
+.border-left {
+  border-left: 1px solid #ccc !important;
+}
+.border-right {
+  border-right: 1px solid #ccc !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc !important;
+}
+.border-bottom-gray {
+  border-bottom: 1px solid #dee2e5 !important;
+}
+
+/***** 모달 팝업 *****/
+.d-block {
+  display: block;
+}
+.d-hidden {
+  display: none;
+}
+.modal-300 {
+  width: 30rem;
+}
+.modal-340 {
+  width: 34rem;
+}
+.modal-550 {
+  width: 55rem;
+}
+.modal-640 {
+  width: 64rem;
+}
+.modal-800 {
+  width: 80rem;
+}
+.modal-1000 {
+  width: 100rem;
+}
+
+.required {
+  color: #ff483e;
+}
+.bg-pink {
+  background: rgba(255, 72, 62, 0.05) !important;
+}
+
+.overflow {
+  overflow: auto !important;
+  border-radius: 0.5rem;
+}
+.overflow-x {
+  overflow-x: auto !important;
+  white-space: nowrap !important;
+  border-radius: 0.5rem;
+}
+.overflow-y {
+  overflow-y: auto !important;
+  border-radius: 0.5rem;
+}
+
+.overflow {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  scrollbar-color: #567198;
+  scrollbar-width: thin;
+}
+.overflow::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 0.5rem;
+}
+.overflow::-webkit-scrollbar-track {
+  background: #fff;
+}
+.overflow::-webkit-scrollbar-thumb {
+  background: #567198;
+  border-radius: 0.5rem;
+}
+.overflow::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  -webkit-text-size-adjust: none;
+}
+
+.overflow-x {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  scrollbar-color: #567198;
+  scrollbar-width: thin;
+}
+.overflow-x::-webkit-scrollbar {
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+.overflow-x::-webkit-scrollbar-track {
+  background: #fff;
+}
+.overflow-x::-webkit-scrollbar-thumb {
+  background: #567198;
+  border-radius: 0.5rem;
+}
+.overflow-x::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  -webkit-text-size-adjust: none;
+}
+
+.overflow-y {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  scrollbar-color: #567198;
+  scrollbar-width: thin;
+}
+.overflow-y::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 0.5rem;
+}
+.overflow-y::-webkit-scrollbar-track {
+  background: #fff;
+}
+.overflow-y::-webkit-scrollbar-thumb {
+  background: #567198;
+  border-radius: 0.5rem;
+}
+.overflow-y::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  -webkit-text-size-adjust: none;
+}
+
+.btn.btn-apply {
+  font-size: 1.2rem;
+  color: #01b453;
+  font-weight: 500;
+  padding: 0 2rem;
+  height: 3.2rem;
+  background: #e6f8ee;
+  border: 0;
+  border-radius: 0.4rem;
+}
+
+.btn.btn-change {
+  font-size: 1.3rem;
+  color: #858e96;
+  font-weight: 500;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 닫기 버튼 */
+
+.close-btn {
+  margin-right: 1rem;
+}
+.close-btn span {
+  display: block;
+  margin-left: auto;
+  width: 2rem;
+  height: 2rem;
+  background: url('./images/ico-close-black.png') 50% 50% no-repeat;
+}
+
+.msg-normal {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #858e96;
+  font-weight: 400;
+}
+.msg-ok {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #01b453;
+  font-weight: 400;
+}
+.msg-fail {
+  display: block;
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: #e82168;
+  font-weight: 400;
+}

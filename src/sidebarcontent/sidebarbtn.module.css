@@ -1,0 +1,86 @@
+li.btn-my span {
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: url('../images/ico-star.png') 50% 50% no-repeat;
+}
+li.btn-all span {
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: url('../images/ico-menu.png') 50% 50% no-repeat;
+}
+li.active {
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #388cff;
+  border-bottom: 2px solid #388cff;
+}
+li.active.btn-my span {
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: url('../images/ico-star-on.png') 50% 50% no-repeat;
+}
+li.active.btn-all span {
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: url('../images/ico-menu-on.png') 50% 50% no-repeat;
+}
+li button.btn {
+  width: 100%;
+  height: 4rem;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #ced4da;
+  padding: 0 1.5rem;
+  background-color: #343a40 !important;
+}
+li button.btn-lnb-normal {
+  background: url('../images/ico-lnb-right.png') 93% 50% no-repeat;
+}
+li button.btn-lnb-toggle {
+  background: url('../images/ico-lnb-down.png') 93% 50% no-repeat;
+}
+
+li button.btn-lnb-normal.current {
+  color: #388cff;
+  /* will be fixed after publish add icon*/
+  background: url('../images/right_arrow_hover.png') 93% 50% no-repeat;
+}
+li button.btn-lnb-toggle.active {
+  color: #388cff;
+  background: url('../images/ico-lnb-up.png') 93% 50% no-repeat;
+}
+li button.btn-link {
+  height: 3rem;
+  font-size: 1.2rem;
+  color: #adb5bd;
+  background-color: #212629 !important;
+}
+
+li button.btn-link.active {
+  color: #388cff;
+}
+li button.btn-link:hover {
+  color: #388cff;
+}
+
+.lnb-depth2 {
+  margin: 1rem 0;
+}
+.lnb-depth2 li button.btn-link {
+  height: 3rem;
+  font-size: 1.2rem;
+  color: #adb5bd;
+  background-color: #212629 !important;
+}
+
+.lnb-depth2 li button.btn-link.active {
+  color: #388cff;
+}
+.lnb-depth2 li button.btn-link:hover {
+  color: #388cff;
+}
